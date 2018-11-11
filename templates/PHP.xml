@@ -1,0 +1,12 @@
+<templateSet group="PHP">
+  <template name="__co" value="public function __construct($ARGS$)&#10;{&#10;    $END$&#10;}" shortcut="ENTER" description="construct" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+</templateSet>
