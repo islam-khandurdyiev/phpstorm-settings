@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="DockerFile" type="PLAIN_TEXT" />
+      <mapping pattern="app" type="PLAIN_TEXT" />
       <mapping ext="ctmpl" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
