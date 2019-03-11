@@ -8,19 +8,23 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="/usr/bin/php" id="2f5ec369-fb73-49cc-a388-af25895ff082" name="PHP 7.1" debugger_id="php.debugger.XDebug" />
-      <interpreter home="/usr/local/Cellar/php/7.3.1/bin/php" id="f9254fa0-5b4e-4f03-a095-388877e96222" name="PHP 7.3" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/usr/local/Cellar/php/7.3.2/bin/php" id="f9254fa0-5b4e-4f03-a095-388877e96222" name="PHP 7.3" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.3">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.3.1/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.3.1/bin/php" path_separator=":" version="7.3.1">
-          <additional_php_ini>/usr/local/etc/php/7.3/conf.d/ext-opcache.ini, /usr/local/etc/php/7.3/conf.d/php-memory-limits.ini</additional_php_ini>
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.3.2/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.3.2/bin/php" path_separator=":" version="7.3.2">
+          <additional_php_ini>/usr/local/etc/php/7.3/conf.d/ext-imap.ini, /usr/local/etc/php/7.3/conf.d/ext-opcache.ini, /usr/local/etc/php/7.3/conf.d/php-memory-limits.ini, /usr/local/etc/php/7.3/conf.d/xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.3/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.3.1/share/php/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.3.2/share/php/pear" />
           </configuration_options>
-          <debuggers />
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="2.7.0rc1">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
           <loaded_extensions>
             <extension name="Core" />
             <extension name="PDO" />
@@ -30,6 +34,7 @@
             <extension name="SPL" />
             <extension name="SimpleXML" />
             <extension name="Zend OPcache" />
+            <extension name="amqp" />
             <extension name="bcmath" />
             <extension name="bz2" />
             <extension name="calendar" />
@@ -47,6 +52,7 @@
             <extension name="gmp" />
             <extension name="hash" />
             <extension name="iconv" />
+            <extension name="imap" />
             <extension name="intl" />
             <extension name="json" />
             <extension name="ldap" />
@@ -80,6 +86,7 @@
             <extension name="tidy" />
             <extension name="tokenizer" />
             <extension name="wddx" />
+            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
